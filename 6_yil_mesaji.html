@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>6. Yılımız 💖</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #ffe6f0, #ffe0ec);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #e91e63;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      color: #444;
+      margin: 10px auto;
+      max-width: 500px;
+    }
+    .heart {
+      font-size: 80px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .heart:hover {
+      transform: scale(1.1);
+    }
+    #message {
+      display: none;
+      margin-top: 30px;
+      background-color: #fff0f5;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>6. Yılımıza Özel 💕</h1>
+  <p>Bugün bizim günümüz... Altı yıl önce başlayan o güzel hikayemiz hâlâ ilk günkü heyecanla devam ediyor.</p>
+
+  <div class="heart" onclick="showMessage()">❤️</div>
+
+  <div id="message">
+    <p><em>
+      Altı yıl boyunca aynı kalpte attık,<br>
+      Her gülüşünde ben bir daha aşık.<br>
+      Birlikte büyüdük, birlikte çoğaldık,<br>
+      Seninle her şey daha da güzel, daha da anlamlı...
+    </em></p>
+    <p><strong>Seni her şeyden çok seviyorum. İyi ki varsın, iyi ki benimsin. 💖</strong></p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById('message').style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
